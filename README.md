@@ -6,6 +6,7 @@ Pre-requisite:
  * Java 8
  * Maven 
  * Chrome latest version(61 version)
+ * Git
  
 Execution:
 ----------
