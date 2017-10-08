@@ -1,6 +1,6 @@
 Feature: Verify the Search functionality of RS component website
 
-  Scenario: Verify the Search criteria with valid Product Digital Thermometers without login to application
+  Scenario: Verify the Search criteria with valid Product Digital Thermometers
     Given User open RS component website.
     When  Enter a valid item "Digital Thermometers" into search field.
     Then  Verify search item "Digital Thermometers" in search result section.
