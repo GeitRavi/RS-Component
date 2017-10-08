@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<testsuite failures="0" name="cucumber.runtime.formatter.JUnitFormatter" skipped="0" tests="5" time="78.613">
+<testcase classname="Verify End 2 End functionality of RS component website" name="Verify End 2 End flow with one Product" time="26.532346">
+<system-out><![CDATA[Given User open RS component website........................................passed
+When Enter a valid item "Digital Thermometers" into search field............passed
+And Select Brand filter & sub filter and Click Apply........................passed
+And Enter Product Quantity "1" and click Add product........................passed
+Then Verify Product "Digital Thermometer" under checkout Page...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify End 2 End functionality of RS component website" name="Verify End 2 End flow with Multiple Filter &amp; Multiple Products" time="30.648838">
+<system-out><![CDATA[Given User open RS component website........................................passed
+When Enter a valid item "Digital Thermometers" into search field............passed
+And Select Multiple filter & sub filter and Click Apply.....................passed
+And Select Two Product with Quantity "1" each and click Add product.........passed
+Then Verify Product "Digital Thermometer" under checkout Page...............passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the Search functionality of RS component website" name="Verify the Search criteria with valid Product Digital Thermometers without login to application" time="6.844973">
+<system-out><![CDATA[Given User open RS component website........................................passed
+When Enter a valid item "Digital Thermometers" into search field............passed
+Then Verify search item "Digital Thermometers" in search result section.....passed
+And Verify Result product page should contain atleast one result record.....passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the Search functionality of RS component website" name="Verify the Search criteria with invalid product Digital Thermometers item" time="6.226876">
+<system-out><![CDATA[Given User open RS component website........................................passed
+When Enter a valid item "Cricket Bat" into search field.....................passed
+Then Verify zero search result "We couldn't find any results for 'Cricket Bat'" in search result section..passed
+]]></system-out>
+</testcase>
+<testcase classname="Verify the Search functionality of RS component website" name="Verify Result product after Apply filter on Search criteria" time="8.359967">
+<system-out><![CDATA[Given User open RS component website........................................passed
+When Enter a valid item "Digital Thermometers " into search field...........passed
+And Select Brand filter & sub filter and Click Apply........................passed
+Then Verify Result product page should contain atleast one result record....passed
+]]></system-out>
+</testcase>
+</testsuite>

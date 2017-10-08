@@ -1,0 +1,500 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5995826054,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify End 2 End flow with one Product",
+        "description": "",
+        "id": "verify-end-2-end-functionality-of-rs-component-website;verify-end-2-end-flow-with-one-product",
+        "after": [
+          {
+            "result": {
+              "duration": 185005439,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 149426094,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open RS component website.",
+            "match": {
+              "location": "StepDefination.i_user_open_RS_component_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2370707859,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter a valid item \"Digital Thermometers\" into search field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Thermometers",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 604997020,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Select Brand filter \u0026 sub filter and Click Apply.",
+            "match": {
+              "location": "StepDefination.apply_filter_and_sub_filter_()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 5657115737,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Enter Product Quantity \"1\" and click Add product.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 24
+                }
+              ],
+              "location": "StepDefination.enter_product_and_add_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11569267651,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "Verify Product \"Digital Thermometer\" under checkout Page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Thermometer",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefination.verify_product_details_and_count(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5602869883,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 10,
+        "name": "Verify End 2 End flow with Multiple Filter \u0026 Multiple Products",
+        "description": "",
+        "id": "verify-end-2-end-functionality-of-rs-component-website;verify-end-2-end-flow-with-multiple-filter-\u0026-multiple-products",
+        "after": [
+          {
+            "result": {
+              "duration": 152645086,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 235891,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User open RS component website.",
+            "match": {
+              "location": "StepDefination.i_user_open_RS_component_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2386765790,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Enter a valid item \"Digital Thermometers\" into search field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Thermometers",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 2884995570,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "Select Multiple filter \u0026 sub filter and Click Apply.",
+            "match": {
+              "location": "StepDefination.apply_multiple_filter_and_sub_filter_()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 8065101910,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "Select Two Product with Quantity \"1\" each and click Add product.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "1",
+                  "offset": 34
+                }
+              ],
+              "location": "StepDefination.select_two_product_and_add_product(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11556223890,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "Verify Product \"Digital Thermometer\" under checkout Page.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Thermometer",
+                  "offset": 16
+                }
+              ],
+              "location": "StepDefination.verify_product_details_and_count(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify End 2 End functionality of RS component website",
+    "description": "",
+    "id": "verify-end-2-end-functionality-of-rs-component-website",
+    "keyword": "Feature",
+    "uri": "End-2-End.feature"
+  },
+  {
+    "line": 1,
+    "elements": [
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4369539850,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 3,
+        "name": "Verify the Search criteria with valid Product Digital Thermometers without login to application",
+        "description": "",
+        "id": "verify-the-search-functionality-of-rs-component-website;verify-the-search-criteria-with-valid-product-digital-thermometers-without-login-to-application",
+        "after": [
+          {
+            "result": {
+              "duration": 126865962,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 255673,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "User open RS component website.",
+            "match": {
+              "location": "StepDefination.i_user_open_RS_component_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2170860004,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "Enter a valid item \"Digital Thermometers\" into search field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Thermometers",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 69445948,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "Verify search item \"Digital Thermometers\" in search result section.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Thermometers",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.verify_search_item_is_result_section(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108006004,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "Verify Result product page should contain atleast one result record.",
+            "match": {
+              "location": "StepDefination.verify_result_product_count()"
+            },
+            "keyword": "And "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 4134058185,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 9,
+        "name": "Verify the Search criteria with invalid product Digital Thermometers item",
+        "description": "",
+        "id": "verify-the-search-functionality-of-rs-component-website;verify-the-search-criteria-with-invalid-product-digital-thermometers-item",
+        "after": [
+          {
+            "result": {
+              "duration": 239904693,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 200409,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User open RS component website.",
+            "match": {
+              "location": "StepDefination.i_user_open_RS_component_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1773504543,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "Enter a valid item \"Cricket Bat\" into search field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Cricket Bat",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 79208139,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "Verify zero search result \"We couldn\u0027t find any results for \u0027Cricket Bat\u0027\" in search result section.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "We couldn\u0027t find any results for \u0027Cricket Bat\u0027",
+                  "offset": 27
+                }
+              ],
+              "location": "StepDefination.verify_zero_search_result_is_result_section(String)"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "before": [
+          {
+            "result": {
+              "duration": 5153359920,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "Verify Result product after Apply filter on Search criteria",
+        "description": "",
+        "id": "verify-the-search-functionality-of-rs-component-website;verify-result-product-after-apply-filter-on-search-criteria",
+        "after": [
+          {
+            "result": {
+              "duration": 283679960,
+              "status": "passed"
+            },
+            "match": {
+              "location": "StepDefination.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 249697,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User open RS component website.",
+            "match": {
+              "location": "StepDefination.i_user_open_RS_component_website()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2196526287,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "Enter a valid item \"Digital Thermometers \" into search field.",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Digital Thermometers ",
+                  "offset": 20
+                }
+              ],
+              "location": "StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 647035608,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "Select Brand filter \u0026 sub filter and Click Apply.",
+            "match": {
+              "location": "StepDefination.apply_filter_and_sub_filter_()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 79115767,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "Verify Result product page should contain atleast one result record.",
+            "match": {
+              "location": "StepDefination.verify_result_product_count()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Verify the Search functionality of RS component website",
+    "description": "",
+    "id": "verify-the-search-functionality-of-rs-component-website",
+    "keyword": "Feature",
+    "uri": "Search.feature"
+  }
+]

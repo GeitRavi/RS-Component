@@ -1,0 +1,33 @@
+Feature: Verify End 2 End functionality of RS component website
+
+  Scenario: Verify End 2 End flow with one Product                    [90m# End-2-End.feature:3[0m
+    [32mGiven [0m[32mUser open RS component website.[0m                             [90m# StepDefination.i_user_open_RS_component_website()[0m
+    [32mWhen [0m[32mEnter a valid item "[0m[32m[1mDigital Thermometers[0m[32m" into search field.[0m [90m# StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)[0m
+    [32mAnd [0m[32mSelect Brand filter & sub filter and Click Apply.[0m             [90m# StepDefination.apply_filter_and_sub_filter_()[0m
+    [32mAnd [0m[32mEnter Product Quantity "[0m[32m[1m1[0m[32m" and click Add product.[0m             [90m# StepDefination.enter_product_and_add_product(String)[0m
+    [32mThen [0m[32mVerify Product "[0m[32m[1mDigital Thermometer[0m[32m" under checkout Page.[0m    [90m# StepDefination.verify_product_details_and_count(String)[0m
+
+  Scenario: Verify End 2 End flow with Multiple Filter & Multiple Products [90m# End-2-End.feature:10[0m
+    [32mGiven [0m[32mUser open RS component website.[0m                                  [90m# StepDefination.i_user_open_RS_component_website()[0m
+    [32mWhen [0m[32mEnter a valid item "[0m[32m[1mDigital Thermometers[0m[32m" into search field.[0m      [90m# StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)[0m
+    [32mAnd [0m[32mSelect Multiple filter & sub filter and Click Apply.[0m               [90m# StepDefination.apply_multiple_filter_and_sub_filter_()[0m
+    [32mAnd [0m[32mSelect Two Product with Quantity "[0m[32m[1m1[0m[32m" each and click Add product.[0m   [90m# StepDefination.select_two_product_and_add_product(String)[0m
+    [32mThen [0m[32mVerify Product "[0m[32m[1mDigital Thermometer[0m[32m" under checkout Page.[0m         [90m# StepDefination.verify_product_details_and_count(String)[0m
+Feature: Verify the Search functionality of RS component website
+
+  Scenario: Verify the Search criteria with valid Product Digital Thermometers without login to application [90m# Search.feature:3[0m
+    [32mGiven [0m[32mUser open RS component website.[0m                                                                   [90m# StepDefination.i_user_open_RS_component_website()[0m
+    [32mWhen [0m[32mEnter a valid item "[0m[32m[1mDigital Thermometers[0m[32m" into search field.[0m                                       [90m# StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)[0m
+    [32mThen [0m[32mVerify search item "[0m[32m[1mDigital Thermometers[0m[32m" in search result section.[0m                                [90m# StepDefination.verify_search_item_is_result_section(String)[0m
+    [32mAnd [0m[32mVerify Result product page should contain atleast one result record.[0m                                [90m# StepDefination.verify_result_product_count()[0m
+
+  Scenario: Verify the Search criteria with invalid product Digital Thermometers item                         [90m# Search.feature:9[0m
+    [32mGiven [0m[32mUser open RS component website.[0m                                                                     [90m# StepDefination.i_user_open_RS_component_website()[0m
+    [32mWhen [0m[32mEnter a valid item "[0m[32m[1mCricket Bat[0m[32m" into search field.[0m                                                  [90m# StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)[0m
+    [32mThen [0m[32mVerify zero search result "[0m[32m[1mWe couldn't find any results for 'Cricket Bat'[0m[32m" in search result section.[0m [90m# StepDefination.verify_zero_search_result_is_result_section(String)[0m
+
+  Scenario: Verify Result product after Apply filter on Search criteria       [90m# Search.feature:14[0m
+    [32mGiven [0m[32mUser open RS component website.[0m                                     [90m# StepDefination.i_user_open_RS_component_website()[0m
+    [32mWhen [0m[32mEnter a valid item "[0m[32m[1mDigital Thermometers [0m[32m" into search field.[0m        [90m# StepDefination.i_user_enter_a_valid_item_details_into_search_field(String)[0m
+    [32mAnd [0m[32mSelect Brand filter & sub filter and Click Apply.[0m                     [90m# StepDefination.apply_filter_and_sub_filter_()[0m
+    [32mThen [0m[32mVerify Result product page should contain atleast one result record.[0m [90m# StepDefination.verify_result_product_count()[0m
