@@ -1,5 +1,5 @@
 # RS-Component
-# Automation Test Case
+# Automation Test Cases
 
 Pre-requisite:
 -------------
