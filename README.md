@@ -1,4 +1,4 @@
-# RS-Component
+# Selenium Web driver + Page Object Model + Cucumber. 
 # Automation Test Cases
 
 Pre-requisite:
