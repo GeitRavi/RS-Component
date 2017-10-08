@@ -13,4 +13,4 @@ command to execute/run test cases.
   * mvn test
   * or run TestRunner.java file
  
-** this support on mac and windows os system with chrome browser.
+** this support on Mac and Windows OS system with Chrome browser.
